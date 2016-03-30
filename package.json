@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/tu6619/savaggio-website/issues"
   },
-  "homepage": "https://github.com/tu6619/savaggio-website#readme"
+  "homepage": "https://github.com/tu6619/savaggio-website#readme",
+  "devDependencies": {
+    "env2": "^2.0.7",
+    "istanbul": "^0.4.2",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "hapi": "^13.2.2"
+  }
 }
