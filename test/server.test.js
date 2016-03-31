@@ -12,7 +12,6 @@ test('server should get a 200 response', (t) => {
     method: 'GET'
   }
   server.inject(options, (response) => {
-    console.log(response)
     t.equal(response.statusCode, 200, 'request successful')
     t.end()
   })
